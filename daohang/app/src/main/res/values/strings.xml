@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">daohang</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">资源导航</string>
+    <string name="nav_header_subtitle">https://github.com/qzpzd</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">主页</string>
+    <string name="menu_gallery">文本生图片</string>
+    <string name="menu_slideshow">图片生文本</string>
+    <string name="but_1">菜鸟网站</string>
+    <string name="but_2">chat</string>
+    <string name="but_3">CSDN\n</string>
+    <string name="but_4">博客园</string>
+    <string name="but_5">知乎</string>
+    <string name="but_6">公众号\n</string>
+    <string name="but_7">w3s</string>
+    <string name="but_8">工具箱</string>
+    <string name="menu_blank">文本生文本</string>
+    <string name="menu_list">待补充</string>
+    <string name="email_subject_hint">请输入描述文本</string>
+    <string name="but_10">生成图片</string>
+    <string name="email_subject_hint1">描述文本</string>
+    <string name="but_11">生成文本</string>
+    <string name="user_avatar_description">用户</string>
+    <string name="system_avatar_description">机器人</string>
+    <string name="type_your_message">Type your message...</string>
+    <string name="send">Send</string>
+</resources>
