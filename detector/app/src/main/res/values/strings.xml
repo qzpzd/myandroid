@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">detector</string>
+    <string name="but_1">生成图片</string>
+    <string name="email_subject_hint">输入描述文本</string>
+</resources>

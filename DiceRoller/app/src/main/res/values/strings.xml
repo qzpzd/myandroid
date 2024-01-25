@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DiceRoller</string>
+    <string name="roll">Roll</string>
+    <string name="bill_amount">Tip Amount</string>
+    <string name="calculate_tip">Caculate Tip</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+    <string name="how_was_the_service">Tip Percentage</string>
+    <string name="round_up_tip">Round up tip</string>
+    <string name="action_settings">第3章课后习题1</string>
+    <string name="welcome">欢迎进入本系统</string>
+
+</resources>
