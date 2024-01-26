@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- 定义浅黑色 -->
+    <color name="light_black">#DE000000</color>
+    <!-- 定义浅粉色 -->
+    <color name="light_pink">#FFDB7093</color>
+    <!-- 定义浅绿色 -->
+    <color name="light_green">#DCEDC8</color>
+    <!-- 定义浅黄色 -->
+    <color name="light_yellow">#FFFEE58C</color>
+    <!-- 定义浅灰色 -->
+    <color name="light_gray">#F5F5F5</color>
+    <color name="selected_indicator_color">#FF606055</color>
+</resources>

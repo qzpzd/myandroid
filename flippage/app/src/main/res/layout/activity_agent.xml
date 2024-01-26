@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 按钮栏，固定在顶部 -->
+    <include
+        android:id="@+id/top_button_bar"
+        layout="@layout/include_top_button_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 第一行的第一个按钮 -->
+    <Button
+        android:id="@+id/button_row1_column1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_page4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_row1_column2"
+        app:layout_constraintTop_toBottomOf="@+id/top_button_bar"
+        app:layout_constraintHorizontal_chainStyle="spread_inside" />
+
+    <!-- 第一行的第二个按钮 -->
+    <Button
+        android:id="@+id/button_row1_column2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_page5"
+        app:layout_constraintStart_toEndOf="@+id/button_row1_column1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_row1_column1" />
+
+    <!-- 第二行的第一个按钮 -->
+    <Button
+        android:id="@+id/button_row2_column1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_page6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_row2_column2"
+        app:layout_constraintTop_toBottomOf="@+id/button_row1_column1"
+        app:layout_constraintHorizontal_chainStyle="spread_inside" />
+
+    <!-- 第二行的第二个按钮 -->
+    <Button
+        android:id="@+id/button_row2_column2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_page7"
+        app:layout_constraintStart_toEndOf="@+id/button_row2_column1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_row2_column1" />
+
+    <!-- 按需继续添加更多按钮 -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

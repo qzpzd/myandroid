@@ -1,0 +1,69 @@
+<!-- 按钮栏，固定在顶部 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/button_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="top"
+    android:padding="8dp"
+    android:baselineAligned="false">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_button_page1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="90dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/button_page1"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- 对其他两个 TextView 进行相同的修改 -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_button_page2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/button_page2"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_button_page3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="90dp"
+        android:paddingBottom="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/button_page3"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- 下划线布局 -->
+    <View
+        android:id="@+id/underline_indicator"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/button_bar"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        android:visibility="invisible" />
+
+    <!-- 更多按钮... -->
+</LinearLayout>

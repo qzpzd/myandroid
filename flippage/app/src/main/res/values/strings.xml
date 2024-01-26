@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">flippage</string>
+    <string name="button_page1">对话</string>
+    <string name="button_page2">智能体</string>
+    <string name="button_page3">应用</string>
+    <string name="button_page4">4</string>
+    <string name="button_page5">5\n</string>
+    <string name="button_page6">6</string>
+    <string name="button_page7">7</string>
+</resources>
